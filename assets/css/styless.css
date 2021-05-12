@@ -3,10 +3,6 @@
 /*-----------------------------------------------------------------------------------------------------------------------<css style> <start>---------------------------------------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
 
 * {
     margin: 0;
