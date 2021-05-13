@@ -239,7 +239,7 @@ i {
 /*--background start--*/
 .background {
     width: 100%;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background-color: #1a3e34;
 }
@@ -260,6 +260,11 @@ i {
 }
 /*--left start--*/
 .left {
+    display: flex !important;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.left1{
     display: flex !important;
     justify-content: space-between;
     margin: 30px 0px;
@@ -331,6 +336,11 @@ i {
         height: auto;
         /*display:  !important;*/
     }
+    .left1{
+        width: 100% !important;
+        height: auto;
+        /*display:  !important;*/
+    }
     .cardcolor {
         width: 100%;
         height: auto;
@@ -361,6 +371,11 @@ i {
         width: 100%;
         height: auto;
     }
+     .left1{
+        width: 100% !important;
+        height: auto;
+       margin-bottom:100px !important;
+    }
 }
 @media screen and (max-width: 768px) {
     .background {
@@ -368,6 +383,11 @@ i {
         height: auto;
     }
     .left {
+        width: 100% !important;
+        height: auto;
+        display: grid !important;
+    }
+    .left1{
         width: 100% !important;
         height: auto;
         display: grid !important;
@@ -860,11 +880,62 @@ div#all {
 }
 .mask1 h2 {
     color: white;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+@media screen and (max-width:1200px){
+    .mask h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:50px;
+    font-weight: 400;
+}
+    .mask1 h2 {
+    color: white;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 25px;
     padding-bottom: 10px;
     font-weight: 400;
+}
+    .view a.info{
+        margin:inherit;
+    }
+}
+@media screen and (max-width:1180px){
+    .mask1 h2 {
+    color: white;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:inherit !important;
+    font-weight: 400;
+}
+    .view a.info{
+        margin:inherit;
+    }
+}
+@media screen and (max-width:1028px){
+    .mask h2 {
+    color: white;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:20px !important;
+    font-weight: 400;
+}
+    .mask1 h2 {
+    color: white;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:inherit !important;
+    font-weight: 400;
+}
+    .view a.info{
+        margin:inherit;
+    }
 }
 @media screen and (max-width:480px) {
     .grid {
@@ -877,12 +948,39 @@ div#all {
         margin: auto;
     }
 }
-@media screen and (max-width:568px) {
-    .mask {
-        display: none;
+@media screen and (max-width:822px){
+    .mask1 p{
+        margin-top:15px !important;
+        font-size:15px;
     }
-    .mask1 {
-        display: none;
+}
+@media screen and (max-width:840px){
+    .mask p{
+        margin-top:50px;
+        font-size:15px;
+    }
+    .mask1 p{
+        margin-top:15px;
+        font-size:15px;
+    }
+}
+@media screen and (max-width:973px) {
+    .mask p{
+        margin-top:70px;
+        font-size:15px;
+    }
+    .mask1 p{
+        margin-top:40px;
+        font-size:15px;
+    }
+    .mask h2 {
+     display: none;
+}
+    .mask1 h2 {
+    display: none;
+}
+    .view a.info{
+         display: none;
     }
 }
 @media screen and (max-width:768px) {
