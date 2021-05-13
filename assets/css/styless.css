@@ -76,7 +76,7 @@ a.resToggle {
     width: 60px;
     height: 80px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:1024px) {
     a.resToggle {
         display: inline-block;
         float: right;
@@ -136,6 +136,7 @@ a.resToggle {
     background-image: url(../images/slider-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
 }
 .heading {
     margin: 180px 0px;
@@ -362,7 +363,7 @@ i {
         height: auto;
     }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     .background {
         width: 100%;
         height: auto;
@@ -375,11 +376,12 @@ i {
     .cardcolor {
         width: 100%;
         height: auto;
+        margin-right: inherit;
     }
     .cardcolor2 {
         width: 100%;
         height: auto;
-
+        margin-right: inherit;
     }
 }
 /*--background end--*/
