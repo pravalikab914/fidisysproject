@@ -234,6 +234,9 @@ i {
     .heading {
         margin: 90px 0px;
     }
+    .heading h2{
+        font-size:60px;
+    }
 }
 /*--wrapper banner end--*/
 /*--background start--*/
