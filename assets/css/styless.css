@@ -1048,6 +1048,16 @@ div#all {
     font-size: 21px;
     padding-left: 250px;
 }
+.sony{
+   color:#16312a;
+    padding-top: 10px;
+}
+.choice{
+   color:white;
+    padding-top:47px;
+    padding-left: 10px;
+    font-size: 32px;
+}
 .carousel-indicators {
     bottom: -80px !important;
 }
@@ -1194,6 +1204,16 @@ input {
 .head h2 {
     font-size: 24px;
     padding: 20px 0px;
+}
+.secondtab{
+   background-color:transparent;
+    color: #57c2a8;
+    margin-bottom: 10px;
+}
+.tableft{
+    background-color:transparent;
+    color: #57c2a8;
+    margin-bottom: 10px;
 }
 .secondtab:hover {
     background-color: #57c2a8 !important;
