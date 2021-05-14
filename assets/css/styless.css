@@ -1137,20 +1137,18 @@ div#all {
     font-size: 25px;
     color: #57c2a8;
     padding-top: 35px;
-    padding-bottom: 80px;
     padding-left: 30px;
 }
 .boxleft {
     display: flex;
     justify-content: space-between;
+    float: right;
 }
 .asscolorposition {
     width: 140px;
     height: 140px;
     background-color: #57c2a8;
     border-top-left-radius: 170px;
-    margin-left: 20px;
-    margin-top: 30px;
 }
 .allinputs {
     width: 65%;
@@ -1219,7 +1217,7 @@ form .error {
     color: #ff0000;
 }
 .city h4 {
-    padding-top: 20px;
+    padding-top:20px;
 }
 .register {
     float: right;
@@ -1228,21 +1226,10 @@ form .error {
 .register:hover {
     background-color: #57c2a8;
 }
-/*meadia query*/
-@media screen and (max-width:1228px) {
-    .asscolorposition {
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    .asesome i {
-        font-size: 25px;
-        color: #57c2a8;
-        padding: inherit;
-        margin-right: 0px;
-        margin-left: 30px;
-        margin-bottom: 20px;
-    }
+label{
+    padding-top: 20px;
 }
+/*meadia query*/
 @media screen and (max-width:800px) {
     .width {
         width: 100% !important;
@@ -1265,31 +1252,9 @@ form .error {
         height: auto;
     }
 }
-@media screen and (max-width:759px) {
-    .asscolorposition {
-        margin-left: 20px;
-        margin-top: 40px;
-    }
-}
 @media screen and (max-width:500px) {
     .secondtab {
         display: block !important;
-    }
-}
-@media screen and (max-width:430px) {
-    .side {
-        margin-left: 30px !important;
-    }
-    .asesome i {
-        font-size: 25px;
-        color: #57c2a8;
-        padding: inherit;
-        margin-right: 0px;
-        margin-left: 12px;
-        margin-bottom: 20px;
-    }
-    .asscolorposition {
-        margin: inherit;
     }
 }
 /*--wrapper-contact-end--*/
