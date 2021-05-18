@@ -1250,7 +1250,7 @@ form .error {
     background-color: #57c2a8;
 }
 label{
-    padding-top: 20px;
+    padding-top:5px;
 }
 /*meadia query*/
 @media screen and (max-width:800px) {
