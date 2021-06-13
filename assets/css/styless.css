@@ -13,6 +13,41 @@ body {
     font-family: 'Josefin Sans', sans-serif !important;
     background-image: linear-gradient(to right, #eaeaea, #eaeaea, #f1f1f1);
 }
+/*loading*/
+body {
+  overflow: hidden;
+}
+
+
+
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+ 
+  z-index: 99;
+ 
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  
+  top: 50%;
+ 
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+ 
+}
 /*--wrapper-menu start--*/
 *,
 *:after,
@@ -1286,7 +1321,7 @@ label{
 .darkgreen {
     background-color: #1a3e34;
     width: 100%;
-    height: 260px;
+    height: 280px;
 }
 .footer {
     width: 90%;
@@ -1305,6 +1340,10 @@ label{
     font-size: 19px;
     word-spacing: 3px;
     line-height: 23px;
+   
+}
+.footer p:nth-child(3){
+    padding-bottom: 30px;
 }
 .Fidisys {
     padding-top: 20px;

@@ -30,9 +30,21 @@
             window.parent.postMessage("resize", "*");
         }
     </script>
+    <!--loading-->
+   <script>
+        $(window).on('load', function() {
+  $('#status').fadeOut();
+  $('#preloader').delay(1000).fadeOut('slow');
+  $('body').delay(1000).css({'overflow':'visible'});
+});
+    </script>
 </head>
 
 <body>
+   <!--loading-->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
     <!--wrapper-menu start-->
     <div class="wrapper" data-aos="fade-right">
         <header class="the-header clearfix">
